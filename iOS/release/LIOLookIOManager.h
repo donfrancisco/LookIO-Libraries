@@ -1,10 +1,11 @@
-//
+//  
 //  LIOLookIOManager.h
-//  LookIO
-//
-//  Created by Joseph Toscano on 8/19/11.
-//  Copyright (c) 2011 LookIO, Inc. All rights reserved.
-//
+//  LookIO iOS Remote Support Client v90
+//  
+//  Copyright 2011-2012 LookIO, Inc. All rights reserved.
+//  
+//  This header file is for use with LookIO.
+//  Documentation and support: http://support.look.io/
 
 #import <UIKit/UIKit.h>
 
