@@ -1,6 +1,6 @@
 //  
 //  LIOLookIOManager.h
-//  LookIO iOS Remote Support Client v91
+//  LookIO iOS Remote Support Client v92
 //  
 //  Copyright 2011-2012 LookIO, Inc. All rights reserved.
 //  
