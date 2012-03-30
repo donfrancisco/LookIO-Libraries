@@ -1,6 +1,6 @@
 //  
 //  LIOLookIOManager.h
-//  LookIO iOS Remote Support Client v103
+//  LookIO iOS Remote Support Client v107
 //  
 //  Copyright 2011-2012 LookIO, Inc. All rights reserved.
 //  
@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-UIImage *lookioImage(NSString *path);
+#define LOOKIO_VERSION_STRING @"107"
 
 @class LIOLookIOManager;
 
@@ -18,6 +18,8 @@ UIImage *lookioImage(NSString *path);
 - (UIWindow *)lookIOManagerMainWindowForHostApp:(LIOLookIOManager *)aManager;
 - (BOOL)lookIOManager:(LIOLookIOManager *)aManager shouldRotateToInterfaceOrientation:(UIInterfaceOrientation)anOrientation;
 - (void)lookIOManager:(LIOLookIOManager *)aManager didUpdateEnabledStatus:(BOOL)lookioIsEnabled;
+- (void)lookIOManagerDidHideControlButton:(LIOLookIOManager *)aManager;
+- (void)lookIOManagerDidShowControlButton:(LIOLookIOManager *)aManager;
 @end
 
 @interface LIOLookIOManager : NSObject
