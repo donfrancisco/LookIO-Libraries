@@ -1,6 +1,6 @@
 //  
 //  LIOLookIOManager.h
-//  LookIO iOS Remote Support Client v143
+//  LookIO iOS Remote Support Client v144
 //  
 //  Copyright 2011-2012 LookIO, Inc. All rights reserved.
 //  
@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define LOOKIO_VERSION_STRING @"143"
+#define LOOKIO_VERSION_STRING @"144"
 
 @class LIOLookIOManager;
 
