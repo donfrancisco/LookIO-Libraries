@@ -1,6 +1,6 @@
 //  
 //  LIOLookIOManager.h
-//  LookIO iOS Remote Support Client v155
+//  LookIO iOS Remote Support Client v156
 //  
 //  Copyright 2011-2012 LookIO, Inc. All rights reserved.
 //  
@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define LOOKIO_VERSION_STRING @"155"
+#define LOOKIO_VERSION_STRING @"156"
 
 @class LIOLookIOManager;
 
@@ -20,6 +20,7 @@
 - (void)lookIOManager:(LIOLookIOManager *)aManager didUpdateEnabledStatus:(BOOL)lookioIsEnabled;
 - (void)lookIOManagerDidHideControlButton:(LIOLookIOManager *)aManager;
 - (void)lookIOManagerDidShowControlButton:(LIOLookIOManager *)aManager;
+- (UIView *)lookIOManager:(LIOLookIOManager *)aManager linkViewForURL:(NSURL *)aURL;
 @end
 
 @interface LIOLookIOManager : NSObject
